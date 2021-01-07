@@ -1,0 +1,12 @@
+/* Customize */
+.indicator-card div .card {
+    background: #2a2f3a !important;
+}
+
+.indicator-card div .card .card-body {
+    padding: 1.2rem !important;
+}
+
+.indicator-card h3 {
+    width: max-content;
+}

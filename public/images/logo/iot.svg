@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.22" height="161.22" viewBox="0 0 161.22 161.22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="114" height="114" rx="24" transform="translate(840 1313.39) rotate(45)" fill="#0d94fb"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.258" y1="0.087" x2="0.457" y2="1.209" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0d94fb" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f8f8f8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_68" data-name="Group 68" transform="translate(-970.39 -1313.39)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="114" height="114" rx="24" transform="translate(1051 1313.39) rotate(45)" fill="#0d94fb"/>
+    <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(211)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="114" height="114" rx="24" transform="translate(882 1313.39) rotate(45)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="sun" transform="translate(1025 1368)">
+      <path id="Path_128" data-name="Path 128" d="M106.957,90.072a16.885,16.885,0,1,0,16.885,16.885,16.9,16.9,0,0,0-16.885-16.885Zm-1.528,22.021h3.055v3.053h-3.055Zm-2.164-2.165-2.159-2.159a8.266,8.266,0,0,1,11.7,0l-2.159,2.159a5.213,5.213,0,0,0-7.383,0Zm3.691-7.638a11.252,11.252,0,0,0-8.007,3.323l-2.159-2.159a14.361,14.361,0,0,1,20.33,0l-2.159,2.159A11.252,11.252,0,0,0,106.957,102.29Z" transform="translate(-80.906 -80.906)" fill="#fff"/>
+      <path id="Path_129" data-name="Path 129" d="M241,0h3.053V6.113H241Z" transform="translate(-216.476)" fill="#fff"/>
+      <path id="Path_130" data-name="Path 130" d="M0,0H3.053V6.113H0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 11.703, 4.253)" fill="#fff"/>
+      <path id="Path_131" data-name="Path 131" d="M0,0H3.053V6.113H0Z" transform="matrix(0.5, -0.866, 0.866, 0.5, 2.727, 14.347)" fill="#fff"/>
+      <path id="Path_132" data-name="Path 132" d="M0,241H6.113v3.053H0Z" transform="translate(0 -216.476)" fill="#fff"/>
+      <path id="Path_133" data-name="Path 133" d="M0,0H6.113V3.053H0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 2.727, 37.753)" fill="#fff"/>
+      <path id="Path_134" data-name="Path 134" d="M0,0H6.113V3.053H0Z" transform="matrix(0.5, -0.866, 0.866, 0.5, 11.702, 47.847)" fill="#fff"/>
+      <path id="Path_135" data-name="Path 135" d="M241,451.928h3.053v6.113H241Z" transform="translate(-216.476 -405.94)" fill="#fff"/>
+      <path id="Path_136" data-name="Path 136" d="M0,0H3.053V6.113H0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 34.696, 44.079)" fill="#fff"/>
+      <path id="Path_137" data-name="Path 137" d="M0,0H3.053V6.113H0Z" transform="matrix(0.5, -0.866, 0.866, 0.5, 42.552, 37.342)" fill="#fff"/>
+      <path id="Path_138" data-name="Path 138" d="M451.928,241h6.113v3.053h-6.113Z" transform="translate(-405.94 -216.476)" fill="#fff"/>
+      <path id="Path_139" data-name="Path 139" d="M0,0H6.113V3.053H0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 42.552, 14.76)" fill="#fff"/>
+      <path id="Path_140" data-name="Path 140" d="M0,0H6.113V3.053H0Z" transform="matrix(0.5, -0.866, 0.866, 0.5, 34.697, 8.021)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
