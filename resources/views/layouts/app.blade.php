@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>SahabaTambak</title>
 <!--
@@ -45,6 +46,9 @@ https://templatemo.com/tm-540-lava-landing-page
     <script src="{{ asset('js/waypoints.min.js') }}"></script>
     <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('js/imgfix.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.hover3d.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <!-- Global Init -->
     <script src="{{ asset('js/custom.js') }}"></script>

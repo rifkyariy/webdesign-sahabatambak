@@ -3,13 +3,13 @@
 @section('content')
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    {{-- <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <img src="{{ asset('images/logo/logo-alt.png') }}" alt="SahabaTambak" width="50px">
         </div>
-    </div>
+    </div> --}}
     <!-- ***** Preloader End ***** -->
 
 
@@ -29,9 +29,9 @@
                             <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
                             <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
                             <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a></li>
-                            <li><a href="admin/index.html" >Demo</a></li>
+                            <li><a href="{{ route('demo.dashboard') }}" >Demo</a></li>
                             @guest
-                            <li><a >Login</a></li>
+                            <li><a href="{{ route('login') }}">Login</a></li>
                             @else
                             <li>
                                 <div class="dropdown">
@@ -39,7 +39,7 @@
                                     {{ Auth::user()->name }}
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Dashboard</a>
+                                    <a class="dropdown-item" href="{{ route('admin.dashboard') }}">Dashboard</a>
                                     <a class="dropdown-item" href="#">Profile</a>
                                     <div class="dropdown-divider"></div>
                                     <a  class="dropdown-item" 
@@ -283,17 +283,17 @@
     <!-- ***** Banner ***** -->
     <section id="banner-callus">
         <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"
                 data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
                 <div class="banner">
                     <div class="row">
                         <div class="col-lg-7 banner-con">
-                            <h2 class="banner-title">Manajemen cerdas perikanan dimulai dari sini</h2>
+                            <h1 class="banner-title">Manajemen cerdas perikanan dimulai dari sini</h1>
                         </div>
-                        <div class="col-lg-5 banner-con">
-                            <h6>Tertarik demgan SahabaTambak?</h6>
+                        <div class="col-lg-5 banner-con text-center">
+                            <h5>Tertarik dengan SahabaTambak?</h5>
                             <br/>
-                            <button class="btn btn-lg btn-warning" type="button" >
+                            <button id="callus-btn" class="btn btn-md btn-warning" type="button" >
                                 Hubungi Kami
                             </button>
                         </div>        

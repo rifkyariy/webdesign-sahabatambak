@@ -21101,5 +21101,18 @@ div.tagsinput {
   color: white !important;
 }
 
+.table.dataTable tbody .even {
+  background-color: inherit !important;
+}
+
+.dataTables_processing {
+  background: none !important;
+  background-color: #ffc107 !important;
+  color: white !important;
+  padding: 5px 20px !important;
+  border-radius: 5pc !important;
+  width: 240px !important;
+  margin-left: -100px  !important;
+}
 
 /*# sourceMappingURL=maps/style.css.map */

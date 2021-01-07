@@ -243,4 +243,54 @@
 	}
 
 
+
+	$(".mitra-img").tilt({
+		'perspective': 100,
+		'glare': false,  // Enables glare effect
+		'maxGlare':1       // From 0 - 1.
+	});
+
+	$("#promotion li img").tilt({
+		'perspective': 100,     // From 0 - 1.
+	});
+	
+	$("#promotion .img-fluid").tilt({
+		'perspective': 4000,
+		'disableAxis': "Y",     // From 0 - 1.
+	});
+
+	$(".features-icon img").tilt({
+		'perspective': 100,     // From 0 - 1.
+	});
+
+	$("#callus-btn").on('click', () => {
+		Swal.fire({
+			title: 'Hubungi Kami',
+			input: 'email',
+			inputLabel: 'Your email address',
+			inputPlaceholder: 'Enter your email address'
+		}).then(function (result) {
+			const data = {
+				'email' : result.value,
+				'_token' : $('meta[name="csrf-token"]').attr('content')
+			};
+
+			$.post("/send-subscription",data, function( returnData ) {
+				if(returnData.status == '201'){
+					Swal.fire(
+						'Good job!',
+						'Please wait any further message from us!',
+						'success'
+					  )
+				}
+			});
+		  })
+	})
+
+	  
+	
+
+
+
+
 })(window.jQuery);

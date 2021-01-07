@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Subscriber;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,5 +25,26 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function subscribe(Request $request)
+    {
+        $email = $request->email;
+        
+        $data = Subscriber::create([
+            'email' => $email
+        ]);
+
+        if($data){
+            return [
+                'status' => '201',
+                'message' => 'success',
+            ];
+        }else{
+            return [
+                'status' => '403',
+                'message' => 'forbidden',
+            ];
+        }
     }
 }
